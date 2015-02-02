@@ -1,0 +1,47 @@
+.fondoNegro {
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding: 50px;
+}
+.fondoOrange {
+    background-color:orange;
+    color:white;
+    padding: 15px;
+
+}
+
+.bannerNaranja {
+
+    position: fixed;
+    bottom: 0;
+    background-color:orange;
+    color:black;
+    padding: 5px ;
+
+}
+
+.botonera{
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #FF8C00;
+    border: 2px solid #000000;
+    bold: text;
+    text-decoration:none;
+}
+
+.listaDiseno {
+    list-style: none;
+}
+
+
+input {
+    float:start;
+    display:inline;
+}
+
+label {
+    bold: text;
+    font-size: large;
+    display: block;
+}
