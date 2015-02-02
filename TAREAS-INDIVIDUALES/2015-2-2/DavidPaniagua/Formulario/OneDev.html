@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<style>
+    body {
+        background-color: #000000;
+    }
+
+    h1 {
+        font-family: "Helvetica";
+        color: orange;
+		font-size: 28px;
+    }
+    h2 {
+        font-family: "Arial Black";
+        color: orange;
+        text-align: center;
+    }
+
+    p{
+        font-family: "Times New Roman";
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    td{
+        font-family: "Times New Roman";
+        font-size: 20px;
+        color: #000000
+    }
+
+</style>
+
+  <title>One Dev</title>
+  <img src="OneDev.png" width="500" height="500" align="right" Alt="One Dev">
+</head>
+
+<body>
+    <h1>Llene el siguiente formulario con sus datos personales.</h1>
+
+    <form action="Formulario.html" method="GET">
+     <CENTER>  <table border="0" cellspacing="5" cellpadding="5" bgcolor="#646464" style="padding:45px; border:0px dotted #ccc"> </CENTER>
+        <tr>
+          <td><label for="Nombre">Nombre Completo:</label></td>
+          <td><input name="Nombre" type="text" size="25" id="Nombre" required /></td>
+        </tr>
+        <tr>
+          <td><label for="Cedula">C&eacutedula</label></td>
+          <td><input name "Cedula" type="text" size="25" id="Cedula" required /></td>
+        </tr>
+        <tr>
+          <td><label for="Telefono">Tel&eacutefono</label></td>
+          <td><input name "Telefono" type="text" size="25" id="Telefono" required /></td>
+        </tr>
+        <tr>
+          <td><label for="Direccion">Direcci&oacuten</label></td>
+          <td><textarea cols="27" rows="5" name="Direccion" id="Direccion" required ></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="Departamento">Departamento</label></td>
+          <td><select name="Departamento" id="Departamento">
+              <option value=""> </option>
+              <option value="Coordinador">Coordinador</option>
+              <option value="Developer">Developer</option>
+              <option value="QA">QA</option>
+              <option value="Soportista">Soportista</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Enviar" /></td>
+        </tr>
+        <tr>
+          <td><input type="reset" value="Borrar Todo" /></td>
+        </tr>
+      </table>
+    </form>
+        <h2>Cont&aacutectenos</h2>
+        <p>Tel&eacutefono: 8748 0286<br/>
+        Correo: jd-paniagua@hotmail.com<br/>
+        Direcci&oacuten: Santa Marta - San Pedro de Montes Oca, del Cruce de la Escuela de Santa Marta 400 metros noreste carretera al Cristo de Sabanilla, San Jos&eacute, Costa Rica</p>
+</body>
+</html>
