@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Estilos objetos formularios</title>
+</head>
+    <body>
+    <link rel="stylesheet"  href="practicaestilos.css">
+    <form action="formulario.html" method="get"name="formulario" id="formulario">
+        <b>Pruebas Estilos </b>
+        <div class="estiloLista" name="divLista" id="divLista">
+        <ul  name="lista" id="lista">
+            <li>
+                <label class="titulos" for="tipoTEXTO"> TEXTO </label>
+                <br/>
+                <input type="text" name="tipoTexto" id="tipoTexto" >
+            </li>
+            <br/>
+            <li>
+                <label class="textoTitulos" for="tipoTextArea"> TEXTAREA </label>
+                <br/>
+                <textarea type="text" name="tipoTextArea" id="tipoTextArea"> </textarea>
+            </li>
+            <br/>
+            <li>
+                <label> RadioButton </label>
+                <br/>
+                <input type="radio" id="radiobutton1" name="radiobutton" value="Masculino"><label for="radiobutton1">Masculino</label>
+                <br/>
+                <input type="radio" id="radiobutton2"  name="radiobutton" value="Femenino"><label for="radiobutton2">Femenino</label>
+
+            </li>
+            <li>
+                <label> RadioButton </label>
+                <div align="justify"><br>
+                    <input type="radio" id=radiogroup1 name="group1" value="Agregar" checked> <label for="radiogroup1">Agregar</label><br>
+                    <input type="radio" id="radiogroup2" name="group1" value="Modificar"><label for="radiogroup2">Modificar</label><br>
+                    <input type="radio" id="radiogroup3" name="group1" value="Eliminar"><label for="radiogroup3"> Eliminar</label><br>
+                    <hr>
+                    <input type="radio" id=radiogroup4 name="group2" value="Izquierda"><label for="radiogroup4"> Izquierda</label><br>
+                    <input type="radio" id=radiogroup5 name="group2" value="Derecha"><label for="radiogroup5"> Derecha</label><br>
+                    <input type="radio" id=radiogroup6 name="group2" value="Centro"><label for="radiogroup6"> Centro</label><br>
+                </div>
+            </li>
+            <br/>
+            <li>
+                <label> CheckButton </label>
+                <br/>
+            <input  type="checkbox" id="checkbox1" name="checkbox1" value="gato" checked="checked"><label for="checkbox1">Gato</label>
+                <br/>
+            <input type="checkbox" id="checkbox2"  name="checkbox2" value="perro"><label for="checkbox2">Perro</label>
+            </li>
+            <br/>
+            <li>
+                <label> Select </label>
+                <select class="option3 " name="tipoSelect" id="tipoSelect">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br/>
+                <label for="tipoSelect"> Select optGroup  </label>
+                <select>
+                    <optgroup label="Autos Japoneses">
+                        <option value="Mitsubishi">Mitsubishi</option>
+                        <option value="Toyota">Toyota</option>
+                    </optgroup>
+                    <optgroup label="Autos Americanos">
+                        <option value="ford">Ford</option>
+                        <option value="chevrolet">Chevrolet</option>
+                    </optgroup>
+                </select>
+            </li>
+            <br/>
+            <li>
+                <input class="botonera" value=" Enviar " type="submit" />
+            </li>
+            <br/>
+        </ul>
+        </div>
+    </form>
+    </body>
+</html>

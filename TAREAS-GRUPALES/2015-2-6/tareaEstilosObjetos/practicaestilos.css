@@ -1,0 +1,80 @@
+ul
+{
+    list-style-type: none;
+}
+label
+{
+    font-size: larger;
+    font-style: italic;
+}
+
+
+
+input[type=text]:not(old){
+ border-color: darkorange;
+ border-width: 5px;
+ font-size: medium;
+ font-style: oblique;
+}
+
+textarea {
+    border-color: darkblue;
+    border-width: 10px;
+    font-size: x-large;
+    font-style: inherit;
+}
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+    width   : 28px;
+    margin  : 0;
+    padding : 0;
+    opacity : 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+    display      : inline-block;
+    margin-left  : -28px;
+    padding-left : 28px;
+    background   : url('checks.png') no-repeat 0 0;
+    line-height  : 24px;
+}
+
+input[type=checkbox]:not(old):checked + label{
+    background-position : 0 -24px;
+}
+
+input[type=radio]:not(old):checked + label{
+    background-position : 0 -48px;
+}
+
+
+select {
+    border: 0 !important;
+    background: red no-repeat 90% center;
+    width: 120px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    color: white;
+    font-size: larger;
+    border-radius: 15px;
+    border-color: darkblue;
+    padding: 5px;
+    box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+}
+select.option3 {
+    border-radius: 10px 0;
+}
+
+
+.botonera{
+
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #FF8C00;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    bold: text;
+    text-decoration:none;
+}
