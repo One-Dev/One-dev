@@ -12,7 +12,7 @@ $fecHa = date("d-m-Y_H_i_s",$hora);
 $archSQL= rutaResp . '/' ."RespaldoFull"."_". nombreBD . '_' . $fecHa.'.sql';
 $archResp =  $archSQL.'.tar'.'.gz';
 $cmdDump = 'mysqldump  -h ' . servidorBD . ' -u ' . usuarioBD. ' -p' . pswdBD  . ' ' . nombreBD .'>'.$archSQL;
-$cmdTar= 'tar -czf' .$archSQL .$archResp;
+$cmdTar= 'tar -czf' .' '.$archResp .' '.$archSQL;
 system($cmdDump);
-/*system($cmdTar);*/
+system($cmdTar);
 ?>
